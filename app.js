@@ -40,6 +40,8 @@ tabButtons.forEach(btn => {
         
         if (tabName === 'paste') {
             pasteTab.classList.add('active');
+            // 切换到粘贴文本模式时，清空文件引用
+            currentFile = null;
         } else {
             uploadTab.classList.add('active');
         }
