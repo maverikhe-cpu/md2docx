@@ -1,0 +1,21 @@
+{
+  "name": "md2docx",
+  "version": "1.0.0",
+  "description": "Markdown 转 Word 转换器 - 网页应用",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "markdown",
+    "docx",
+    "converter",
+    "word"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
